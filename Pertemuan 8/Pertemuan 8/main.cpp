@@ -61,7 +61,6 @@ int main()
     cout << "soal no 1" << endl;
     int urutan[100];
     int sise;
-    int ganjil;
     cout << "masukan jumlah array = ";
     cin >> sise;
     for (int j=0;j<sise;j++){
