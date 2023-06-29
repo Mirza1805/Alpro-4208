@@ -12,15 +12,15 @@ int penjumlahan (int a,int b){
 }
 int pengurangan (int a,int b){
     if (b==0){
-        return a-b;
+        return a;
     }
     else{
-        return a-(penjumlahan(1,(b-1)));
+        return penjumlahan(a-1,b-1);
     }
 }
 int perkalian(int a, int b){
     if (b==0){
-        return a*b;
+        return 0;
     }
     else
         return a+(perkalian(a,(b-1)));
